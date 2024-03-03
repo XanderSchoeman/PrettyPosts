@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		387F67272B94EFD3001F441E /* MockAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F67252B94EFA9001F441E /* MockAPIService.swift */; };
+		387F67292B94F1D1001F441E /* UserListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F67282B94F1D1001F441E /* UserListViewModelTests.swift */; };
+		387F672B2B94F454001F441E /* PostListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F672A2B94F454001F441E /* PostListViewModelTests.swift */; };
 		38F726072B8FD2B100299F01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F726062B8FD2B100299F01 /* AppDelegate.swift */; };
 		38F726092B8FD2B100299F01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F726082B8FD2B100299F01 /* SceneDelegate.swift */; };
-		38F7260B2B8FD2B100299F01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F7260A2B8FD2B100299F01 /* ViewController.swift */; };
 		38F7260E2B8FD2B100299F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38F7260C2B8FD2B100299F01 /* Main.storyboard */; };
 		38F726102B8FD2BE00299F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F7260F2B8FD2BE00299F01 /* Assets.xcassets */; };
 		38F726132B8FD2BE00299F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38F726112B8FD2BE00299F01 /* LaunchScreen.storyboard */; };
-		38F7261E2B8FD2BF00299F01 /* PrettyPostsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F7261D2B8FD2BF00299F01 /* PrettyPostsTests.swift */; };
-		38F726282B8FD2BF00299F01 /* PrettyPostsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F726272B8FD2BF00299F01 /* PrettyPostsUITests.swift */; };
-		38F7262A2B8FD2BF00299F01 /* PrettyPostsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F726292B8FD2BF00299F01 /* PrettyPostsUITestsLaunchTests.swift */; };
+		38F7263B2B8FD42F00299F01 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F7263A2B8FD42F00299F01 /* APIService.swift */; };
+		38F7263D2B8FD47500299F01 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F7263C2B8FD47500299F01 /* UserModel.swift */; };
+		38F7263F2B8FD49000299F01 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F7263E2B8FD49000299F01 /* PostModel.swift */; };
+		38F726422B8FD50100299F01 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F726412B8FD50100299F01 /* UserListViewModel.swift */; };
+		38F726442B8FD52500299F01 /* PostListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F726432B8FD52500299F01 /* PostListViewModel.swift */; };
+		38F726462B8FD57400299F01 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F726452B8FD57400299F01 /* UserListViewController.swift */; };
+		38F726482B8FD5AA00299F01 /* PostListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F726472B8FD5AA00299F01 /* PostListViewController.swift */; };
+		38F726502B94A87C00299F01 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F7264E2B94A87C00299F01 /* UserCell.swift */; };
+		38F726512B94A87C00299F01 /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38F7264F2B94A87C00299F01 /* UserCell.xib */; };
+		38F726572B94B63900299F01 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F726552B94B63900299F01 /* PostCell.swift */; };
+		38F726582B94B63900299F01 /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38F726562B94B63900299F01 /* PostCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,29 +36,31 @@
 			remoteGlobalIDString = 38F726022B8FD2B100299F01;
 			remoteInfo = PrettyPosts;
 		};
-		38F726242B8FD2BF00299F01 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 38F725FB2B8FD2B100299F01 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 38F726022B8FD2B100299F01;
-			remoteInfo = PrettyPosts;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		387F67252B94EFA9001F441E /* MockAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIService.swift; sourceTree = "<group>"; };
+		387F67282B94F1D1001F441E /* UserListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModelTests.swift; sourceTree = "<group>"; };
+		387F672A2B94F454001F441E /* PostListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewModelTests.swift; sourceTree = "<group>"; };
 		38F726032B8FD2B100299F01 /* PrettyPosts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrettyPosts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F726062B8FD2B100299F01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38F726082B8FD2B100299F01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		38F7260A2B8FD2B100299F01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		38F7260D2B8FD2B100299F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38F7260F2B8FD2BE00299F01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38F726122B8FD2BE00299F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38F726142B8FD2BE00299F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38F726192B8FD2BF00299F01 /* PrettyPostsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrettyPostsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		38F7261D2B8FD2BF00299F01 /* PrettyPostsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyPostsTests.swift; sourceTree = "<group>"; };
-		38F726232B8FD2BF00299F01 /* PrettyPostsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrettyPostsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		38F726272B8FD2BF00299F01 /* PrettyPostsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyPostsUITests.swift; sourceTree = "<group>"; };
-		38F726292B8FD2BF00299F01 /* PrettyPostsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyPostsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38F7263A2B8FD42F00299F01 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		38F7263C2B8FD47500299F01 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		38F7263E2B8FD49000299F01 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		38F726412B8FD50100299F01 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		38F726432B8FD52500299F01 /* PostListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewModel.swift; sourceTree = "<group>"; };
+		38F726452B8FD57400299F01 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		38F726472B8FD5AA00299F01 /* PostListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewController.swift; sourceTree = "<group>"; };
+		38F7264E2B94A87C00299F01 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		38F7264F2B94A87C00299F01 /* UserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCell.xib; sourceTree = "<group>"; };
+		38F726552B94B63900299F01 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		38F726562B94B63900299F01 /* PostCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,22 +78,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38F726202B8FD2BF00299F01 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		387F67222B94DDE5001F441E /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				38F7264E2B94A87C00299F01 /* UserCell.swift */,
+				38F7264F2B94A87C00299F01 /* UserCell.xib */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		387F67232B94DEF3001F441E /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				38F726552B94B63900299F01 /* PostCell.swift */,
+				38F726562B94B63900299F01 /* PostCell.xib */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		387F67242B94EF8F001F441E /* MockAPIService */ = {
+			isa = PBXGroup;
+			children = (
+				387F67252B94EFA9001F441E /* MockAPIService.swift */,
+			);
+			path = MockAPIService;
+			sourceTree = "<group>";
+		};
 		38F725FA2B8FD2B100299F01 = {
 			isa = PBXGroup;
 			children = (
 				38F726052B8FD2B100299F01 /* PrettyPosts */,
 				38F7261C2B8FD2BF00299F01 /* PrettyPostsTests */,
-				38F726262B8FD2BF00299F01 /* PrettyPostsUITests */,
 				38F726042B8FD2B100299F01 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +121,6 @@
 			children = (
 				38F726032B8FD2B100299F01 /* PrettyPosts.app */,
 				38F726192B8FD2BF00299F01 /* PrettyPostsTests.xctest */,
-				38F726232B8FD2BF00299F01 /* PrettyPostsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,10 +128,10 @@
 		38F726052B8FD2B100299F01 /* PrettyPosts */ = {
 			isa = PBXGroup;
 			children = (
+				38F726372B8FD39100299F01 /* NetworkHandler */,
+				38F726362B8FD38900299F01 /* Features */,
 				38F726062B8FD2B100299F01 /* AppDelegate.swift */,
 				38F726082B8FD2B100299F01 /* SceneDelegate.swift */,
-				38F7260A2B8FD2B100299F01 /* ViewController.swift */,
-				38F7260C2B8FD2B100299F01 /* Main.storyboard */,
 				38F7260F2B8FD2BE00299F01 /* Assets.xcassets */,
 				38F726112B8FD2BE00299F01 /* LaunchScreen.storyboard */,
 				38F726142B8FD2BE00299F01 /* Info.plist */,
@@ -113,18 +142,107 @@
 		38F7261C2B8FD2BF00299F01 /* PrettyPostsTests */ = {
 			isa = PBXGroup;
 			children = (
-				38F7261D2B8FD2BF00299F01 /* PrettyPostsTests.swift */,
+				387F67242B94EF8F001F441E /* MockAPIService */,
+				387F67282B94F1D1001F441E /* UserListViewModelTests.swift */,
+				387F672A2B94F454001F441E /* PostListViewModelTests.swift */,
 			);
 			path = PrettyPostsTests;
 			sourceTree = "<group>";
 		};
-		38F726262B8FD2BF00299F01 /* PrettyPostsUITests */ = {
+		38F726362B8FD38900299F01 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				38F726272B8FD2BF00299F01 /* PrettyPostsUITests.swift */,
-				38F726292B8FD2BF00299F01 /* PrettyPostsUITestsLaunchTests.swift */,
+				38F726392B8FD3D600299F01 /* User List */,
+				38F726382B8FD3B800299F01 /* User Posts */,
 			);
-			path = PrettyPostsUITests;
+			path = Features;
+			sourceTree = "<group>";
+		};
+		38F726372B8FD39100299F01 /* NetworkHandler */ = {
+			isa = PBXGroup;
+			children = (
+				38F726402B8FD49900299F01 /* Models */,
+				38F7263A2B8FD42F00299F01 /* APIService.swift */,
+			);
+			path = NetworkHandler;
+			sourceTree = "<group>";
+		};
+		38F726382B8FD3B800299F01 /* User Posts */ = {
+			isa = PBXGroup;
+			children = (
+				38F726542B94B61100299F01 /* views */,
+				38F726532B94B60500299F01 /* viewControllers */,
+				38F726522B94B5FD00299F01 /* viewModels */,
+			);
+			path = "User Posts";
+			sourceTree = "<group>";
+		};
+		38F726392B8FD3D600299F01 /* User List */ = {
+			isa = PBXGroup;
+			children = (
+				38F7264B2B94A7BE00299F01 /* viewModels */,
+				38F7264A2B94A7AF00299F01 /* viewControllers */,
+				38F726492B94A7A600299F01 /* views */,
+			);
+			path = "User List";
+			sourceTree = "<group>";
+		};
+		38F726402B8FD49900299F01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				38F7263E2B8FD49000299F01 /* PostModel.swift */,
+				38F7263C2B8FD47500299F01 /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		38F726492B94A7A600299F01 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				38F7260C2B8FD2B100299F01 /* Main.storyboard */,
+				387F67222B94DDE5001F441E /* CustomCells */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		38F7264A2B94A7AF00299F01 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				38F726452B8FD57400299F01 /* UserListViewController.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		38F7264B2B94A7BE00299F01 /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				38F726412B8FD50100299F01 /* UserListViewModel.swift */,
+			);
+			path = viewModels;
+			sourceTree = "<group>";
+		};
+		38F726522B94B5FD00299F01 /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				38F726432B8FD52500299F01 /* PostListViewModel.swift */,
+			);
+			path = viewModels;
+			sourceTree = "<group>";
+		};
+		38F726532B94B60500299F01 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				38F726472B8FD5AA00299F01 /* PostListViewController.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		38F726542B94B61100299F01 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				387F67232B94DEF3001F441E /* CustomCells */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +283,6 @@
 			productReference = 38F726192B8FD2BF00299F01 /* PrettyPostsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		38F726222B8FD2BF00299F01 /* PrettyPostsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 38F726332B8FD2BF00299F01 /* Build configuration list for PBXNativeTarget "PrettyPostsUITests" */;
-			buildPhases = (
-				38F7261F2B8FD2BF00299F01 /* Sources */,
-				38F726202B8FD2BF00299F01 /* Frameworks */,
-				38F726212B8FD2BF00299F01 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				38F726252B8FD2BF00299F01 /* PBXTargetDependency */,
-			);
-			name = PrettyPostsUITests;
-			productName = PrettyPostsUITests;
-			productReference = 38F726232B8FD2BF00299F01 /* PrettyPostsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +297,6 @@
 						CreatedOnToolsVersion = 15.2;
 					};
 					38F726182B8FD2BF00299F01 = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 38F726022B8FD2B100299F01;
-					};
-					38F726222B8FD2BF00299F01 = {
 						CreatedOnToolsVersion = 15.2;
 						TestTargetID = 38F726022B8FD2B100299F01;
 					};
@@ -221,7 +317,6 @@
 			targets = (
 				38F726022B8FD2B100299F01 /* PrettyPosts */,
 				38F726182B8FD2BF00299F01 /* PrettyPostsTests */,
-				38F726222B8FD2BF00299F01 /* PrettyPostsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,20 +326,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F726512B94A87C00299F01 /* UserCell.xib in Resources */,
 				38F726132B8FD2BE00299F01 /* LaunchScreen.storyboard in Resources */,
+				38F726582B94B63900299F01 /* PostCell.xib in Resources */,
 				38F726102B8FD2BE00299F01 /* Assets.xcassets in Resources */,
 				38F7260E2B8FD2B100299F01 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		38F726172B8FD2BF00299F01 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		38F726212B8FD2BF00299F01 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,8 +348,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38F7260B2B8FD2B100299F01 /* ViewController.swift in Sources */,
+				387F67272B94EFD3001F441E /* MockAPIService.swift in Sources */,
+				38F726502B94A87C00299F01 /* UserCell.swift in Sources */,
+				38F726442B8FD52500299F01 /* PostListViewModel.swift in Sources */,
+				38F7263F2B8FD49000299F01 /* PostModel.swift in Sources */,
+				38F726422B8FD50100299F01 /* UserListViewModel.swift in Sources */,
 				38F726072B8FD2B100299F01 /* AppDelegate.swift in Sources */,
+				38F726462B8FD57400299F01 /* UserListViewController.swift in Sources */,
+				38F726482B8FD5AA00299F01 /* PostListViewController.swift in Sources */,
+				38F7263B2B8FD42F00299F01 /* APIService.swift in Sources */,
+				38F726572B94B63900299F01 /* PostCell.swift in Sources */,
+				38F7263D2B8FD47500299F01 /* UserModel.swift in Sources */,
 				38F726092B8FD2B100299F01 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,16 +367,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38F7261E2B8FD2BF00299F01 /* PrettyPostsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		38F7261F2B8FD2BF00299F01 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38F7262A2B8FD2BF00299F01 /* PrettyPostsUITestsLaunchTests.swift in Sources */,
-				38F726282B8FD2BF00299F01 /* PrettyPostsUITests.swift in Sources */,
+				387F672B2B94F454001F441E /* PostListViewModelTests.swift in Sources */,
+				387F67292B94F1D1001F441E /* UserListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,11 +379,6 @@
 			isa = PBXTargetDependency;
 			target = 38F726022B8FD2B100299F01 /* PrettyPosts */;
 			targetProxy = 38F7261A2B8FD2BF00299F01 /* PBXContainerItemProxy */;
-		};
-		38F726252B8FD2BF00299F01 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 38F726022B8FD2B100299F01 /* PrettyPosts */;
-			targetProxy = 38F726242B8FD2BF00299F01 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -527,40 +613,6 @@
 			};
 			name = Release;
 		};
-		38F726342B8FD2BF00299F01 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = za.co.dvt.PrettyPostsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PrettyPosts;
-			};
-			name = Debug;
-		};
-		38F726352B8FD2BF00299F01 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = za.co.dvt.PrettyPostsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PrettyPosts;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -587,15 +639,6 @@
 			buildConfigurations = (
 				38F726312B8FD2BF00299F01 /* Debug */,
 				38F726322B8FD2BF00299F01 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		38F726332B8FD2BF00299F01 /* Build configuration list for PBXNativeTarget "PrettyPostsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				38F726342B8FD2BF00299F01 /* Debug */,
-				38F726352B8FD2BF00299F01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
